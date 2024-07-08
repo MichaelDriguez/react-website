@@ -1,22 +1,50 @@
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
-body, html {
-    height: 100%;
-    color: #555;
-    line-height: 1.8;
+h1, h2, h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
 }
 
-/* Color of Navbar Buttons */
 .navcolor {
-    color: #000000;
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
 }
 
-footer a {
+.w3-button, .nav-hover {
+    transition: color 0.3s;
+}
+
+.nav-hover:hover {
+    background-color: #48CAE4;
+}
+
+.hover {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.hover:hover {
+    color: #48CAE4;
+}
+
+body, html {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    line-height: 1.8;
+    /*background-image: url("images/DarkTheme.png");*/
+    /*background-size: cover;*/
+    /*background-color: #040456;*/
+    min-height: 250px;
+    background: radial-gradient(circle, #023E8A, #03045E);
+    height: 100vh;
+    margin: 0;
+}
+
+a {
     text-decoration: none;
     margin: 0 2px;
 }
 
 .errorMessage {
-    color: #555;
+    color: #0077B6;
     text-align: center;
     font-weight: bold;
 }
@@ -33,7 +61,7 @@ input {
 
 .btn, select {
     margin: 10px 0 10px;
-    background-color: #555;
+    background-color: #0077B6;
     border: none;
     color: white;
     padding: 8px 16px;
@@ -42,25 +70,50 @@ input {
     display: inline-block;
 }
 
-/* Create a Parallax Effect */
-.bgimg-1, .bgimg-2 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.bgimg-1 {
-    background-image: url("images/Placeholder.png");
-    min-height: 250px;
-}
-
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-/* Turn off parallax scrolling for tablets and phones */
-@media only screen and (max-device-width: 1600px) { .bgimg-1, .bgimg-2 {
-    background-attachment: scroll;
-    min-height: 400px;
+/*Change text size for small screens.*/
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 40px;
+        text-align: center;
+    }
+    h3 {
+        font-size: 20px;
+        margin-right: 6%;
+        margin-left: 2%;
+        text-align: center;
+    }
+
+    hr {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
 }
+
+/*Change text size for big screens.*/
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 80px;
+        margin-left: 5%;
+    }
+    h2 {
+        font-size: 50px;
+        margin-left: 5%;
+    }
+    h3 {
+        font-size: 25px;
+        margin-left: 5%;
+        margin-right: 15%;
+    }
+
+    hr {
+        margin-right: 12%;
+        margin-left: 5%;
+    }
 }
