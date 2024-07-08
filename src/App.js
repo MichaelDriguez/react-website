@@ -1,18 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './Style.css';
+import {HashRouter as Router, Route, Routes} from "react-router-dom";
+import Home from "./router/Home";
+import Projects from "./router/Projects";
+import ThemePicker from "./router/ThemePicker";
+import NoPage from "./router/NoPage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Website in progress.
-          <br/> The site will work in due time.
-          <br/> Please check back later.
-        </p>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+          <Route index element={<Home/>}/>
+          <Route path="/projects" index element={<Projects />}/>
+          <Route path="theme-picker" element={<ThemePicker />}/>
+          <Route path="*" element={<NoPage/>}/>
+      </Routes>
+    </Router>
   );
 }
 
