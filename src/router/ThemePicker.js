@@ -6,9 +6,9 @@ const ThemePicker = () => {
             <div className="w3-animate-opacity">
                 <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
                 <h1>Theme Picker</h1>
-                <h3>            Website in progress.
+                <p>            Website in progress.
                     <br/> The site will work in due time.
-                    <br/> Please check back later.</h3>
+                    <br/> Please check back later.</p>
             </div>
         </div>
     )

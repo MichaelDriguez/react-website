@@ -2,10 +2,10 @@ import React from 'react';
 
 function NoPage() {
     return (
-        <div>
+        <div className="w3-animate-opacity no-page">
             <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
             <h1><b>Not Found</b></h1>
-            <h3>The page you are looking for does not exist.</h3>
+            <p>The page you are looking for does not exist.</p>
         </div>
     );
 }

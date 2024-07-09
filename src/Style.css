@@ -1,9 +1,4 @@
-h1, h2, h3,h4,h5,h6 {
-    font-family: 'Playfair Display', serif;
-    color: #ffffff;
-}
-
-.navcolor {
+h1,h2,h3,h4,h5,h6,.navcolor {
     font-family: 'Playfair Display', serif;
     color: #ffffff;
 }
@@ -30,8 +25,17 @@ body, html {
     color: #ffffff;
     line-height: 1.8;
     min-height: 250px;
-    background: radial-gradient(circle, #023E8A, #03045E);
-    background-color: #030C64;
+    background: #03045E radial-gradient(circle, #023E8A, #03045E);
+    height: 100vh;
+    margin: 0;
+}
+
+.no-page {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    line-height: 1.8;
+    min-height: 250px;
+    background: #601c1c radial-gradient(circle, #8a2929, #601c1c);
     height: 100vh;
     margin: 0;
 }
@@ -74,6 +78,10 @@ input {
 /*Change text size for small screens.*/
 @media screen and (max-width: 600px) {
     h1 {
+        margin-right: 5%;
+        margin-left: 5%;
+        line-height: 1.25;
+        margin-bottom: 10%;
         font-size: 60px;
         text-align: center;
     }
@@ -83,16 +91,19 @@ input {
         font-size: 30px;
         text-align: center;
     }
-    h3 {
+    p {
         margin-right: 5%;
         margin-left: 5%;
         font-size: 18px;
         text-align: center;
     }
-
     hr {
         margin-left: 7%;
         margin-right: 7%;
+    }
+    .logo {
+        font-size: 200%;
+        margin-top: -2.55%;
     }
 }
 
@@ -106,14 +117,18 @@ input {
         font-size: 40px;
         margin-left: 5%;
     }
-    h3 {
+    p {
         font-size: 25px;
         margin-left: 5%;
         margin-right: 28%;
     }
-
     hr {
         margin-right: 12%;
         margin-left: 5%;
+    }
+    .logo {
+        font-size: 200%;
+        margin-top: -0.75%;
+        margin-left: -0.15%;
     }
 }

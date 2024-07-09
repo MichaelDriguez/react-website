@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from "react-router-dom";
-import LogoDarkTheme from '../images/LogoDarkTheme.png';
 
-const Navbar = (props) =>  {
+const Navbar = () =>  {
     return (
         <>
             <nav>
@@ -13,10 +12,7 @@ const Navbar = (props) =>  {
                        onClick={toggleFunction} title="Toggle Navigation Menu">
                         <i className="fa fa-bars"></i>
                         </a>
-                        <Link to="/" className="navcolor w3-bar-item hover">
-                            <img src={LogoDarkTheme} alt="Logo for Mike's Pictures"
-                                 style={{width: "50px",height:"20px"}}/>
-                        </Link>
+                        <Link  to="/" className="navcolor w3-bar-item hover logo">MR</Link>
                         <Link to="/contact" className="navcolor w3-bar-item w3-hide-small w3-right hover">CONTACT</Link>
                         <Link to="/theme-picker" className="navcolor w3-bar-item w3-hide-small w3-right hover">THEME PICKER</Link>
                         <Link to="/projects" className="navcolor w3-bar-item w3-hide-small w3-right hover">PROJECTS</Link>
@@ -41,20 +37,6 @@ const Navbar = (props) =>  {
         </>
     );
 }
-
-// // Change style of navbar on scroll
-// window.onscroll = function() {myFunction()};
-// function myFunction() {
-//     let navbar = document.getElementById("myNavbar");
-//     if (document.body.scrollTop > 100 ||
-//         document.documentElement.scrollTop > 100) {
-//         navbar.className = "w3-bar" + " w3-card" +
-//             " w3-animate-top" + " w3-white";
-//     } else {
-//         navbar.className =
-//             navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-//     }
-// }
 
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
