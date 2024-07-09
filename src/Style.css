@@ -29,11 +29,9 @@ body, html {
     font-family: 'Playfair Display', serif;
     color: #ffffff;
     line-height: 1.8;
-    /*background-image: url("images/DarkTheme.png");*/
-    /*background-size: cover;*/
-    /*background-color: #040456;*/
     min-height: 250px;
     background: radial-gradient(circle, #023E8A, #03045E);
+    background-color: #030C64;
     height: 100vh;
     margin: 0;
 }
@@ -80,13 +78,15 @@ input {
         text-align: center;
     }
     h2 {
-        font-size: 40px;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 30px;
         text-align: center;
     }
     h3 {
-        font-size: 20px;
-        margin-right: 6%;
-        margin-left: 2%;
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -103,13 +103,13 @@ input {
         margin-left: 5%;
     }
     h2 {
-        font-size: 50px;
+        font-size: 40px;
         margin-left: 5%;
     }
     h3 {
         font-size: 25px;
         margin-left: 5%;
-        margin-right: 15%;
+        margin-right: 28%;
     }
 
     hr {
