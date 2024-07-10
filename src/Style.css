@@ -30,15 +30,15 @@ body, html {
     margin: 0;
 }
 
-.no-page {
-    font-family: 'Playfair Display', serif;
-    color: #ffffff;
-    line-height: 1.8;
-    min-height: 250px;
-    background: #601c1c radial-gradient(circle, #6e1423, #85182a);
-    height: 100vh;
-    margin: 0;
-}
+/*.no-page {*/
+/*    font-family: 'Playfair Display', serif;*/
+/*    color: #ffffff;*/
+/*    line-height: 1.8;*/
+/*    min-height: 250px;*/
+/*    background: #601c1c radial-gradient(circle, #6e1423, #85182a);*/
+/*    height: 100vh;*/
+/*    margin: 0;*/
+/*}*/
 
 a {
     text-decoration: none;
