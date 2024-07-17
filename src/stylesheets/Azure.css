@@ -1,0 +1,178 @@
+h1,h2,h3,h4,h5,h6,.navcolor {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+}
+
+.w3-button, .nav-hover {
+    transition: color 0.3s;
+}
+
+.nav-hover:hover {
+    background-color: #48CAE4;
+}
+
+.hover {
+    color: #ffffff;
+    transition: color 0.3s;
+}
+
+.hover:hover {
+    color: #48CAE4;
+}
+
+body, html {
+    font-family: 'Playfair Display', serif;
+    color: #ffffff;
+    line-height: 1.8;
+    min-height: 250px;
+    background: #03045E radial-gradient(circle, #023E8A, #03045E);
+    height: 100vh;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+.errorMessage {
+    color: #0077B6;
+    text-align: center;
+    font-weight: bold;
+}
+
+form label {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    margin: 10px 0 20px;
+    display: inline-block;
+}
+
+.btn, select {
+    margin: 10px 0 10px;
+    background-color: #0077B6;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/*Change text size for small screens.*/
+@media screen and (max-width: 600px) {
+    h1 {
+        margin-right: 5%;
+        margin-left: 5%;
+        line-height: 1.25;
+        margin-bottom: 10%;
+        font-size: 60px;
+        text-align: center;
+    }
+    h2 {
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 30px;
+        text-align: center;
+    }
+    p {
+        margin-right: 5%;
+        margin-left: 5%;
+        font-size: 18px;
+        text-align: center;
+    }
+    ul, li {
+        font-size: 18px;
+        margin-left: 17.5%;
+    }
+    hr {
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .logo {
+        font-size: 200%;
+        margin-top: -2.55%;
+    }
+
+    .button-terminal {
+        font-family: "Consolas", monospace;
+        border-width: 2px;
+        background-color: #000000;
+        border-color: #3aa655;
+        color: #3aa655;
+        padding: 10px 22px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .button-azure {
+        font-family: 'Playfair Display', serif;
+        color: #ffffff;
+        border-width: 2px;
+        background: #03045E radial-gradient(circle, #023E8A, #03045E);
+        border-color: #ffffff;
+        padding: 10px 22px;
+        text-align: center;
+        margin-right: 2%;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/*Change text size for big screens.*/
+@media screen and (min-width: 600px) {
+    h1 {
+        font-size: 80px;
+        margin-left: 5%;
+    }
+    h2 {
+        font-size: 40px;
+        margin-left: 5%;
+    }
+    p, ul, li {
+        font-size: 25px;
+        margin-left: 5%;
+        margin-right: 28%;
+    }
+    hr {
+        margin-right: 12%;
+        margin-left: 5%;
+    }
+    .logo {
+        font-size: 200%;
+        margin-top: -0.75%;
+        margin-left: -0.15%;
+    }
+    .button-terminal {
+        font-family: "Consolas", monospace;
+        border-width: 2px;
+        background-color: #000000;
+        color: #3aa655;
+        border-color: #3aa655;
+        padding: 10px 22px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: -4%;
+    }
+
+    .button-azure {
+        font-family: 'Playfair Display', serif;
+        color: #ffffff;
+        border-width: 2px;
+        background: #03045E radial-gradient(circle, #023E8A, #03045E);
+        border-color: #ffffff;
+        padding: 10px 22px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: -4%;
+    }
+}

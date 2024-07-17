@@ -14,7 +14,6 @@ const Navbar = () =>  {
                         </a>
                         <Link  to="/" className="navcolor w3-bar-item hover logo">MR</Link>
                         <Link to="/contact" className="navcolor w3-bar-item w3-hide-small w3-right hover">CONTACT</Link>
-                        <Link to="/theme-picker" className="navcolor w3-bar-item w3-hide-small w3-right hover">THEME PICKER</Link>
                         <Link to="/projects" className="navcolor w3-bar-item w3-hide-small w3-right hover">PROJECTS</Link>
                         <Link to="/about" className="navcolor w3-bar-item w3-hide-small w3-right hover">ABOUT</Link>
                     </div>
@@ -26,8 +25,6 @@ const Navbar = () =>  {
                               onClick={toggleFunction}> ABOUT</Link>
                         <Link to="/projects" className="w3-bar-item w3-button"
                           onClick={toggleFunction}> PROJECTS</Link>
-                        <Link to="/theme-picker" className="w3-bar-item w3-button"
-                          onClick={toggleFunction}> THEME PICKER</Link>
                         <Link to="/contact" className="w3-bar-item w3-button"
                               onClick={toggleFunction}> CONTACT</Link>
                     </div>

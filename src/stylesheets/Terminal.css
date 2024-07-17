@@ -1,44 +1,34 @@
 h1,h2,h3,h4,h5,h6,.navcolor {
-    font-family: 'Playfair Display', serif;
-    color: #ffffff;
+    font-family: "Consolas", monospace;
+    color: #3aa655;
 }
 
 .w3-button, .nav-hover {
-    transition: color 0.3s;
+    transition: color 0s;
 }
 
 .nav-hover:hover {
-    background-color: #48CAE4;
+    background-color: #eb0a42;
 }
 
 .hover {
-    color: #ffffff;
-    transition: color 0.3s;
+    color: #3aa655;
+    transition: color 0s;
 }
 
 .hover:hover {
-    color: #48CAE4;
+    color: #eb0a42;
 }
 
 body, html {
-    font-family: 'Playfair Display', serif;
-    color: #ffffff;
+    font-family: "Consolas", monospace;
+    color: #3aa655;
     line-height: 1.8;
     min-height: 250px;
-    background: #03045E radial-gradient(circle, #023E8A, #03045E);
+    background-color: #000000;
     height: 100vh;
     margin: 0;
 }
-
-/*.no-page {*/
-/*    font-family: 'Playfair Display', serif;*/
-/*    color: #ffffff;*/
-/*    line-height: 1.8;*/
-/*    min-height: 250px;*/
-/*    background: #601c1c radial-gradient(circle, #6e1423, #85182a);*/
-/*    height: 100vh;*/
-/*    margin: 0;*/
-/*}*/
 
 a {
     text-decoration: none;
@@ -46,7 +36,7 @@ a {
 }
 
 .errorMessage {
-    color: #0077B6;
+    color: #3aa655;
     text-align: center;
     font-weight: bold;
 }
@@ -97,13 +87,45 @@ input {
         font-size: 18px;
         text-align: center;
     }
+    ul, li {
+        font-size: 18px;
+        margin-left: 17.5%;
+    }
     hr {
         margin-left: 7%;
         margin-right: 7%;
+        color: #3aa655;
     }
     .logo {
         font-size: 200%;
         margin-top: -2.55%;
+    }
+
+    .button-terminal {
+        font-family: "Consolas", monospace;
+        border-width: 2px;
+        background-color: #000000;
+        border-color: #3aa655;
+        color: #3aa655;
+        padding: 10px 22px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .button-azure {
+        font-family: 'Playfair Display', serif;
+        color: #ffffff;
+        border-width: 2px;
+        background: #03045E radial-gradient(circle, #023E8A, #03045E);
+        border-color: #ffffff;
+        padding: 10px 22px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -117,7 +139,7 @@ input {
         font-size: 40px;
         margin-left: 5%;
     }
-    p {
+    p, ul, li {
         font-size: 25px;
         margin-left: 5%;
         margin-right: 28%;
@@ -125,10 +147,34 @@ input {
     hr {
         margin-right: 12%;
         margin-left: 5%;
+        color: #3aa655;
     }
     .logo {
         font-size: 200%;
         margin-top: -0.75%;
         margin-left: -0.15%;
+    }
+
+    .button-terminal {
+        font-family: "Consolas", monospace;
+        border-width: 2px;
+        background-color: #000000;
+        border-color: #3aa655;
+        padding: 10px 22px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: -4%;
+    }
+
+    .button-azure {
+        font-family: 'Playfair Display', serif;
+        color: #ffffff;
+        border-width: 2px;
+        background: #03045E radial-gradient(circle, #023E8A, #03045E);
+        border-color: #ffffff;
+        padding: 10px 22px;
+        text-align: center;
+        margin-left: 5%;
+        margin-right: -4%;
     }
 }
