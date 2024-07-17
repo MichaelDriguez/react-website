@@ -3,8 +3,18 @@ h1,h2,h3,h4,h5,h6,.navcolor {
     color: #ffffff;
 }
 
-.w3-button, .nav-hover {
+.nav-background {
+    background-color: #03045E;
+    border-color: white;
+    border-width: 1px;
+}
+
+.nav-hover {
     transition: color 0.3s;
+}
+
+.mobile-hover:hover {
+    background: #03045E radial-gradient(circle, #023E8A, #03045E);
 }
 
 .nav-hover:hover {
@@ -89,7 +99,8 @@ input {
     }
     ul, li {
         font-size: 18px;
-        margin-left: 17.5%;
+        text-align: left;
+        list-style-position: inside;
     }
     hr {
         margin-left: 7%;

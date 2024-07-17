@@ -19,14 +19,16 @@ const Navbar = () =>  {
                     </div>
 
                     {/* Navbar on small screens */}
-                    <div id="navDemo" className="w3-bar-block
+                    <div id="navDemo" className="nav-background w3-bar-block
                     w3-hide w3-hide-large w3-hide-medium">
-                        <Link to="/about" className="w3-bar-item w3-button"
+                        <hr style={{marginLeft: '0%', marginRight: '0%'}}/>
+                        <Link to="/about" className="nav-background mobile-hover w3-bar-item"
                               onClick={toggleFunction}> ABOUT</Link>
-                        <Link to="/projects" className="w3-bar-item w3-button"
-                          onClick={toggleFunction}> PROJECTS</Link>
-                        <Link to="/contact" className="w3-bar-item w3-button"
+                        <Link to="/projects" className="nav-background mobile-hover w3-bar-item"
+                              onClick={toggleFunction}> PROJECTS</Link>
+                        <Link to="/contact" className="nav-background mobile-hover w3-bar-item"
                               onClick={toggleFunction}> CONTACT</Link>
+                        <hr style={{ marginLeft: '0%', marginRight: '0%'}}/>
                     </div>
                 </div>
             </nav>
