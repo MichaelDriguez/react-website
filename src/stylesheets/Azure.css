@@ -100,6 +100,8 @@ input {
   ul, li {
     font-size: 18px;
     text-align: left;
+    margin-left: 5%;
+    margin-right: 7.5%;
     list-style-position: inside;
   }
   hr {
