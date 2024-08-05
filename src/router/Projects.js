@@ -5,12 +5,24 @@ const Projects = () => {
     <div>
       <div>
         <div className="w3-animate-opacity">
-          <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-          <h1>Projects</h1>
-            <p>Here's a list of <i>some</i> of the projects that I have worked on in the past couple
+          <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+          <pre className="ASCII-text">
+                  {`
+//    _____           _           _       
+//   |  __ \\         (_)         | |      
+//   | |__) _ __ ___  _  ___  ___| |_ ___ 
+//   |  ___| '__/ _ \\| |/ _ \\/ __| __/ __|
+//   | |   | | | (_) | |  __| (__| |_\\__ \\
+//   |_|   |_|  \\___/| |\\___|\\___|\\__|___/
+//                  _/ |                  
+//                 |__/                                                                                                                                                                                                                                                           
+      `}
+      </pre>
+          <h1 className="alt-text">Projects</h1>
+          <p>Here's a list of <i>some</i> of the projects that I have worked on in the past couple
             years. When you click on the names of the projects, you will get redirected to their respective GitHub
             repositories, when applicable.
-            </p>
+          </p>
         </div>
       </div>
 
@@ -21,7 +33,7 @@ const Projects = () => {
         <div className="w3-animate-opacity">
           <br/> <br/>
           <h2><b>Penetration Testing Lab</b>
-          <br/>January 2024 - Present</h2>
+            <br/>January 2024</h2>
           <p>The penetration testing lab is an ongoing project. The lab itself is an isolated
             virtual network where the attacker (Kali Linux) exploits the target machine (Metasploit 2).
             Some of the tools I have used in the penetration testing lab include:
@@ -50,7 +62,7 @@ const Projects = () => {
         <div className="w3-animate-opacity">
           <br/> <br/>
             <h2><a href="https://github.com/MichaelDriguez/secure-password-generator"
-            target="_blank" rel="noreferrer" className="hover"><b>Secure Password Generator</b></a>
+            target="_blank" rel="noreferrer" className="hover-two"><b>Secure Password Generator</b></a>
             <br/>June 2024 | <i className="devicon-java-plain"></i></h2>
               <p>This program generates secure passwords that one could use for their accounts. This
               program includes several customization options for password generation,
@@ -62,11 +74,11 @@ const Projects = () => {
         <div className="w3-animate-opacity">
           <br/> <br/>
           <h2><a href="https://github.com/MichaelDriguez/password-strength-checker"
-            target="_blank" rel="noreferrer" className="hover">
+            target="_blank" rel="noreferrer" className="hover-two">
             <b>Password Strength Checker</b></a><br/>July 2024 | <i class="devicon-bash-plain"></i>
           </h2>
           <p><b>In collaboration with </b><a href="https://github.com/jvalenteros"
-            target="_blank" rel="noreferrer" className="hover"><i><b>Johann Valenteros</b></i></a>
+            target="_blank" rel="noreferrer" className="hover-two"><b>Johann Valenteros</b></a>
           </p>
           <p>This program checks how secure your password is. It determines the score by checking the length
             and complexity of the password. The program will also provide suggestions as to how you can make
@@ -79,7 +91,7 @@ const Projects = () => {
         <div className="w3-animate-opacity">
           <br/> <br/>
           <h2><a href="https://github.com/MichaelDriguez/react-website"
-          target="_blank" rel="noreferrer" className="hover"><b>This Website</b></a>
+          target="_blank" rel="noreferrer" className="hover-two"><b>This Website</b></a>
           <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-css3-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i>

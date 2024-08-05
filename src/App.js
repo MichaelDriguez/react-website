@@ -1,5 +1,5 @@
 import React from 'react';
-import "./stylesheets/Azure.css";
+import "./stylesheets/Style.css";
 
 import {HashRouter as Router, Route, Routes} from "react-router-dom";
 

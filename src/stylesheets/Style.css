@@ -1,10 +1,15 @@
-h1,h2,h3,h4,h5,h6,.navcolor {
-  font-family: 'Playfair Display', serif;
-  color: #ffffff;
+h1,h2,h3,h4,h5,h6,.navcolor,.ASCII-text {
+  font-family: 'Consolas', monospace;
+  color: #16C60C;
+}
+
+pre {
+  font-size: 1.5rem;
+  line-height: 1.125;
 }
 
 .nav-background {
-  background-color: #03045E;
+  background-color: #012456;
   border-color: white;
   border-width: 1px;
 }
@@ -14,28 +19,38 @@ h1,h2,h3,h4,h5,h6,.navcolor {
 }
 
 .mobile-hover:hover {
-  background: #03045E radial-gradient(circle, #023E8A, #03045E);
+  background: #3083C7;
 }
 
 .nav-hover:hover {
-  background-color: #48CAE4;
+  background-color: #C50F1F;
 }
 
 .hover {
   color: #ffffff;
-  transition: color 0.3s;
+  transition: color 0s;
 }
 
 .hover:hover {
-  color: #48CAE4;
+  color: #C50F1F;
+}
+
+/* Transition colors for links. */
+.hover-two {
+  color: #16C60C;
+  transition: color 0s;
+}
+
+.hover-two:hover {
+  color: #C50F1F;
 }
 
 body, html {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Consolas', monospace;
   color: #ffffff;
   line-height: 1.8;
   min-height: 250px;
-  background: #03045E radial-gradient(circle, #023E8A, #03045E);
+  background: #0C0C0C;
   height: 100vh;
   margin: 0;
 }
@@ -46,7 +61,7 @@ a {
 }
 
 .errorMessage {
-  color: #0077B6;
+  color: #3083C7;
   text-align: center;
   font-weight: bold;
 }
@@ -77,7 +92,7 @@ input {
 
 /*Change text size for small screens.*/
 @media screen and (max-width: 600px) {
-  h1 {
+  h1, pre {
     margin-right: 5%;
     margin-left: 5%;
     line-height: 1.25;
@@ -105,6 +120,7 @@ input {
     list-style-position: inside;
   }
   hr {
+    border-width: 2px;
     margin-left: 7%;
     margin-right: 7%;
   }
@@ -116,6 +132,10 @@ input {
   .buttons {
     display: flex;
     justify-content: center;
+  }
+
+  .ASCII-text {
+    display: none; /* Hide content */
   }
 }
 
@@ -129,18 +149,36 @@ input {
     font-size: 40px;
     margin-left: 5%;
   }
-  p, ul, li {
+  p, ul, li, pre {
     font-size: 25px;
     margin-left: 5%;
     margin-right: 28%;
   }
   hr {
-    margin-right: 12%;
+    border-width: 3px;
+    margin-right: 90%;
     margin-left: 5%;
   }
   .logo {
     font-size: 200%;
     margin-top: -0.75%;
     margin-left: -0.15%;
+  }
+}
+
+@media (max-width: 1023px) {
+  .ASCII-text {
+    display: none; /* Hide content */
+  }
+}
+
+@media (min-width: 1023px) {
+  .alt-text {
+    display: block; /* Show content on small screens */
+  }
+}
+@media (min-width: 1024px) {
+  .alt-text {
+    display: none; /* Show content on small screens */
   }
 }

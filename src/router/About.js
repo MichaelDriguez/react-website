@@ -4,8 +4,20 @@ const About = () => {
   return (
     <div>
       <div className="w3-animate-opacity">
-        <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
-        <h1>Who is Michael Rodriguez?</h1>
+        <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+        <pre className="ASCII-text">
+                  {`
+//             _                 _     __  __      
+//       /\\   | |               | |   |  \\/  |     
+//      /  \\  | |__   ___  _   _| |_  | \\  / | ___ 
+//     / /\\ \\ | '_ \\ / _ \\| | | | __| | |\\/| |/ _ \\
+//    / ____ \\| |_) | (_) | |_| | |_  | |  | |  __/
+//   /_/    \\_|_.__/ \\___/ \\__,_|\\__| |_|  |_|\\___|
+//                                                 
+//                                                                                                                                                                                                                                                                                                       
+      `}
+      </pre>
+        <h1 className="alt-text"><b>About Me</b></h1>
         <p>I am Michael Rodriguez, and I am a university student majoring in cybersecurity
           with an emphasis in computer science. With knowledge on several programming
           languages, frameworks, developer tools, and operating systems, I can help contribute
@@ -17,8 +29,20 @@ const About = () => {
       <hr/>
 
       <div className="w3-animate-opacity">
-      <br/> <br/>
-      <h1>Education</h1>
+        <br/> <br/>
+        <pre className="ASCII-text">
+                  {`
+//    ______    _                 _   _             
+//   |  ____|  | |               | | (_)            
+//   | |__   __| |_   _  ___ __ _| |_ _  ___  _ __  
+//   |  __| / _\` | | | |/ __/ _\` | __| |/ _ \\| '_ \\ 
+//   | |___| (_| | |_| | (_| (_| | |_| | (_) | | | |
+//   |______\\__,_|\\__,_|\\___\\__,_|\\__|_|\\___/|_| |_|
+//                                                  
+//                                                                                                                                                                                                                                                                                                   
+      `}
+      </pre>
+        <h1 className="alt-text">Education</h1>
         <h2>Bachelor of Science in Cybersecurity (Computer Science Emphasis)</h2>
         <p><b>School - </b> University of Missouri-St. Louis <br/>
           <b>Expected Graduation Date - </b> May 2026 <br/>
@@ -30,8 +54,26 @@ const About = () => {
       <hr/>
 
       <div className="w3-animate-opacity">
-      <br/> <br/>
-      <h1>Technical Skills</h1>
+        <br/> <br/>
+        <pre className="ASCII-text">
+                  {`
+//    _______        _           _           _ 
+//   |__   __|      | |         (_)         | |
+//      | | ___  ___| |__  _ __  _  ___ __ _| |
+//      | |/ _ \\/ __| '_ \\| '_ \\| |/ __/ _\` | |
+//      | |  __| (__| | | | | | | | (_| (_| | |
+//      |_|\\___|\\___|_| |_|_| |_|_|\\___\\__,_|_|
+//     _____ _    _ _ _                        
+//    / ____| |  (_| | |                       
+//   | (___ | | ___| | |___                    
+//    \\___ \\| |/ | | | / __|                   
+//    ____) |   <| | | \\__ \\                   
+//   |_____/|_|\\_|_|_|_|___/                   
+//                                             
+//                                                                                                                                                                                                                                                                                                                                         
+      `}
+      </pre>
+        <h1 className="alt-text">Technical Skills</h1>
         <h2>Programming Languages</h2>
         <ul>
           <li>C++ <i className="devicon-cplusplus-plain"></i></li>
