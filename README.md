@@ -2,6 +2,7 @@
 
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/michaeldriguez/react-website)
 ![GitHub license](https://img.shields.io/github/license/michaeldriguez/react-website)
+[![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](#)
 [![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
 [![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#)
