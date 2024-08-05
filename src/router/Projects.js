@@ -28,6 +28,23 @@ const Projects = () => {
 
       <br/> <br/>
       <hr/>
+      <div>
+        <div className="w3-animate-opacity">
+          <br/> <br/>
+          <h2><a href="https://github.com/MichaelDriguez/react-website"
+                 target="_blank" rel="noreferrer" className="hover-two"><b>React Portfolio Website</b></a>
+            <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-css3-plain" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i>
+            <i className="devicon-react-original"></i></h2>
+          <p>The react portfolio website is the website you see before you right now.
+            This project first began with a w3.css template. I then modified it both visually and
+            functionally to get what you see right now.
+          </p>
+          <br/> <br/>
+        </div>
+      </div>
+      <hr/>
 
       <div>
         <div className="w3-animate-opacity">
@@ -61,12 +78,12 @@ const Projects = () => {
       <div>
         <div className="w3-animate-opacity">
           <br/> <br/>
-            <h2><a href="https://github.com/MichaelDriguez/secure-password-generator"
-            target="_blank" rel="noreferrer" className="hover-two"><b>Secure Password Generator</b></a>
+          <h2><a href="https://github.com/MichaelDriguez/secure-password-generator"
+                 target="_blank" rel="noreferrer" className="hover-two"><b>Secure Password Generator</b></a>
             <br/>June 2024 | <i className="devicon-java-plain"></i></h2>
-              <p>This program generates secure passwords that one could use for their accounts. This
-              program includes several customization options for password generation,
-              including password length, the inclusion of symbols, and several other options. </p>
+          <p>This program generates secure passwords that one could use for their accounts. This
+            program includes several customization options for password generation,
+            including password length, the inclusion of symbols, and several other options. </p>
           <br/> <br/>
         </div>
       </div>
@@ -74,11 +91,12 @@ const Projects = () => {
         <div className="w3-animate-opacity">
           <br/> <br/>
           <h2><a href="https://github.com/MichaelDriguez/password-strength-checker"
-            target="_blank" rel="noreferrer" className="hover-two">
-            <b>Password Strength Checker</b></a><br/>July 2024 | <i class="devicon-bash-plain"></i>
+                 target="_blank" rel="noreferrer" className="hover-two">
+            <b>Password Strength Checker</b></a><br/>July 2024 | <i className="devicon-bash-plain"></i>
           </h2>
           <p><b>In collaboration with </b><a href="https://github.com/jvalenteros"
-            target="_blank" rel="noreferrer" className="hover-two"><b>Johann Valenteros</b></a>
+                                             target="_blank" rel="noreferrer" className="hover-two"><b>Johann
+            Valenteros</b></a>
           </p>
           <p>This program checks how secure your password is. It determines the score by checking the length
             and complexity of the password. The program will also provide suggestions as to how you can make
@@ -90,15 +108,18 @@ const Projects = () => {
       <div>
         <div className="w3-animate-opacity">
           <br/> <br/>
-          <h2><a href="https://github.com/MichaelDriguez/react-website"
-          target="_blank" rel="noreferrer" className="hover-two"><b>This Website</b></a>
-          <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
+          <h2><a href="https://github.com/MichaelDriguez/password-school"
+                 target="_blank" rel="noreferrer" className="hover-two"><b>Password School</b></a>
+            <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-css3-plain" style={{marginRight: '0.3%'}}></i>
-            <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i>
-            <i className="devicon-react-original"></i></h2>
-            <p>This website began with a w3.css template. I then modified it both visually and
-              functionally to get what you see right now.
-            </p>
+            <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i></h2>
+          <p>This program is a web version of the above two programs (the password strength checker
+            and the secure password generator). As of August 5, 2024,
+            <a href="https://michaeldriguez.github.io/password-school/"
+             target="_blank" rel="noreferrer" className="hover-two"><b> Password School</b></a> only
+            has the password strength checker set up. However, I plan to include the password generator soon.
+            The two aforementioned repositories have or will be translated into JavaScript for this website.
+          </p>
           <br/> <br/> <br/> <br/> <br/>
         </div>
       </div>
