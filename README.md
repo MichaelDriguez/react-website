@@ -12,26 +12,26 @@
 
 This is a dynamic portfolio website (React.js) that shows the following:
 - In the "About" page:
-    - A description of who I am.
-    - My education level.
-    - My technical skills. These include familiarity and proficiency with the following:
-        - Programming Languages
-        - Developer Tools
-        - IDEs and Text Editors
-        - Frameworks
-        - Operating Systems
+  - A description of who I am.
+  - My education level.
+  - My technical skills. These include familiarity and proficiency with the following:
+    - Programming Languages
+    - Developer Tools
+    - IDEs and Text Editors
+    - Frameworks
+    - Operating Systems
 - In the "Projects" page:
-    - A list of *some* of the projects that I have worked on in the past couple years.
-        - Each project lists the following:
-            - The month and year it began development.
-            - The programs and tools used for the project (when applicable).
-            - The programming languages used to create the project (when applicable).
-        - When applicable, clicking on the title of the program will redirect you to its GitHub repository.
+  - A list of *some* of the projects that I have worked on in the past couple years.
+    - Each project lists the following:
+      - The month and year it began development.
+      - The programs and tools used for the project (when applicable).
+      - The programming languages used to create the project (when applicable).
+    - When applicable, clicking on the title of the program will redirect you to its GitHub repository.
 - In the "Contact" page:
-    - My email address.
-    - A link to my Github profile.
-    - A link to my LinkedIn profile.
-        - You must be logged into LinkedIn in order to see my profile.
+  - My email address.
+  - A link to my Github profile.
+  - A link to my LinkedIn profile.
+    - You must be logged into LinkedIn in order to see my profile. 
 
 ## License
 
