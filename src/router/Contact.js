@@ -17,7 +17,7 @@ const Home = () => {
 //                                                                                                                                                                                                                                                
       `}
       </pre>
-      <h1 className="alt-text">Contact</h1>
+      <h1 className="alt-text"><b>Contact</b></h1>
       <hr/>
       <p> mlrodriguez2003@outlook.com <br/>
         <Link className="hover" to="https://github.com/MichaelDriguez"

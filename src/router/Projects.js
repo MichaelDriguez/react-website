@@ -18,7 +18,7 @@ const Projects = () => {
 //                 |__/                                                                                                                                                                                                                                                           
       `}
       </pre>
-          <h1 className="alt-text">Projects</h1>
+          <h1 className="alt-text"><b>Projects</b></h1>
           <p>Here's a list of <i>some</i> of the projects that I have worked on in the past couple
             years. When you click on the names of the projects, you will get redirected to their respective GitHub
             repositories, when applicable.

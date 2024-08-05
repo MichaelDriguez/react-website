@@ -16,9 +16,7 @@ const Home = () => {
 //                                                                                                                                                                                                                                                             
       `}
       </pre>
-      <h1 className="alt-text">Welcome.</h1>
-      <hr/>
-
+      <h1 className="alt-text"><b>Welcome.</b></h1>
       <p>You have entered the website of Michael Rodriguez.</p>
     </div>
   )
