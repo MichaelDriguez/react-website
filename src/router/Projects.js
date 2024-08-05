@@ -21,7 +21,8 @@ const Projects = () => {
           <h1 className="alt-text"><b>Projects</b></h1>
           <p>Here's a list of <i>some</i> of the projects that I have worked on in the past couple
             years. When you click on the names of the projects, you will get redirected to their respective GitHub
-            repositories, when applicable.
+            repositories, when applicable. As for the web-based applications, the green text within the project
+            description will take you to the website itself.
           </p>
         </div>
       </div>
@@ -35,8 +36,9 @@ const Projects = () => {
                  target="_blank" rel="noreferrer" className="hover-two"><b>React Portfolio Website</b></a>
             <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-css3-plain" style={{marginRight: '0.3%'}}></i>
-            <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i>
-            <i className="devicon-react-original"></i></h2>
+            <i className="devicon-javascript-plain" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-nodejs-plain" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-react-original" style={{marginRight: '0.5%'}}></i></h2>
           <p>The react portfolio website is the website you see before you right now.
             This project first began with a w3.css template. I then modified it both visually and
             functionally to get what you see right now.
@@ -113,12 +115,31 @@ const Projects = () => {
             <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-css3-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i></h2>
-          <p>This program is a web version of the above two programs (the password strength checker
-            and the secure password generator). As of August 5, 2024,
+          <p>This program is a web version of the above two programs (the Password Strength Checker
+            and the Secure Password Generator). As of August 5, 2024,
             <a href="https://michaeldriguez.github.io/password-school/"
-             target="_blank" rel="noreferrer" className="hover-two"><b> Password School</b></a> only
+               target="_blank" rel="noreferrer" className="hover-two"><b> Password School</b></a> only
             has the password strength checker set up. However, I plan to include the password generator soon.
             The two aforementioned repositories have or will be translated into JavaScript for this website.
+          </p>
+          <br/> <br/>
+        </div>
+      </div>
+      <div>
+        <div className="w3-animate-opacity">
+          <br/> <br/>
+          <h2><a href="https://github.com/jvalenteros/ciphers"
+                 target="_blank" rel="noreferrer" className="hover-two"><b>Cipher Tools</b></a>
+            <br/>August 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-tailwindcss-original" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i></h2>
+          <p><b>In collaboration with </b><a href="https://github.com/jvalenteros"
+            target="_blank" rel="noreferrer" className="hover-two"><b>Johann Valenteros</b></a>
+          </p>
+          <p>This program encodes and decodes text using various ciphers. As of August 5, 2024,
+            <a href="https://jvalenteros.github.io/ciphers/"
+               target="_blank" rel="noreferrer" className="hover-two"><b> Cipher Tools</b></a> supports
+            the ROT13 cipher and the Caesar cipher.
           </p>
           <br/> <br/> <br/> <br/> <br/>
         </div>
