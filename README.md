@@ -36,6 +36,14 @@ This is a dynamic portfolio website (React.js) that shows the following:
 ## License
 
 This project is available under the [MIT License.](https://github.com/MichaelDriguez/react-website/blob/main/LICENSE)
+
+## Author
+
+This project was created by [Michael Rodriguez.](https://github.com/MichaelDriguez)
+
+## Support
+
+Give a ⭐️ if this project helped you.
 <br> <hr>
 
 # Getting Started with Create React App
