@@ -76,6 +76,7 @@ const About = () => {
         <h1 className="alt-text">Technical Skills</h1>
         <h2>Programming Languages</h2>
         <ul>
+          <li>C <i className="devicon-c-plain"></i></li>
           <li>C++ <i className="devicon-cplusplus-plain"></i></li>
           <li>Java <i className="devicon-java-plain"></i></li>
           <li>HTML <i className="devicon-html5-plain"></i></li>
@@ -85,7 +86,7 @@ const About = () => {
         </ul>
         <h2>Developer Tools</h2>
         <ul>
-          <li>GitHub <i className="devicon-github-original"></i></li>
+        <li>GitHub <i className="devicon-github-original"></i></li>
           <li>GitLab <i className="devicon-gitlab-plain"></i></li>
           <li>Node.js <i className="devicon-nodejs-plain"></i></li>
           <li>Insomnia <i className="devicon-insomnia-plain"></i></li>
@@ -97,6 +98,7 @@ const About = () => {
           <li>WebStorm <i className="devicon-webstorm-plain"></i></li>
           <li>Visual Studio Code <i className="devicon-vscode-plain"></i></li>
           <li>GNU nano <i className="devicon-nano-plain"></i></li>
+          <li>Vim <i className="devicon-vim-plain"></i></li>
         </ul>
         <h2>Frameworks</h2>
         <ul>

@@ -112,15 +112,15 @@ const Projects = () => {
           <br/> <br/>
           <h2><a href="https://github.com/MichaelDriguez/password-school"
                  target="_blank" rel="noreferrer" className="hover-two"><b>Password School</b></a>
-            <br/>July 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
+            <br/>July 2024, December 2024 | <i className="devicon-html5-plain" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-css3-plain" style={{marginRight: '0.3%'}}></i>
+            <i className="devicon-tailwindcss-original" style={{marginRight: '0.3%'}}></i>
             <i className="devicon-javascript-plain" style={{marginRight: '0.5%'}}></i></h2>
-          <p>This program is a web version of the above two programs (the Password Strength Checker
-            and the Secure Password Generator). As of August 5, 2024,
+          <p>
             <a href="https://michaeldriguez.github.io/password-school/"
-               target="_blank" rel="noreferrer" className="hover-two"><b> Password School</b></a> only
-            has the password strength checker set up. However, I plan to include the password generator soon.
-            The two aforementioned repositories have or will be translated into JavaScript for this website.
+               target="_blank" rel="noreferrer" className="hover-two"><b> Password School </b></a>
+            is a web version of the above two programs (the Password Strength Checker
+            and the Secure Password Generator).
           </p>
           <br/> <br/>
         </div>
