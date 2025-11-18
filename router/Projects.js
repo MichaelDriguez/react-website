@@ -9,7 +9,7 @@ const Projects = () => {
         <h1 className='title'>PROJECTS</h1>
           <p>Here's a list of <i>some</i> of the projects that I have worked on in the past couple
             years. When you click on the names of the projects, you will get redirected to their respective GitHub
-            repositories, when applicable. As for the web-based applications, the green text within the project
+            repositories, when applicable. As for the web-based applications, the yellow text within the project
             description will take you to the website itself.
           </p>
         </div>
