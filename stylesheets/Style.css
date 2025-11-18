@@ -17,13 +17,10 @@ pre {
   line-height: 1.125;
 }
 
-/* .w3-bar {
-  background-color: #2c4c3b;
-} */
-
 .nav-background {
   background-color: #012456;
   border-color: white;
+  font-family: 'Playfair Display', serif;
   border-width: 1px;
 }
 
@@ -146,10 +143,6 @@ input {
   .buttons {
     display: flex;
     justify-content: center;
-  }
-
-  .ASCII-text {
-    display: none; /* Hide content */
   }
 }
 
