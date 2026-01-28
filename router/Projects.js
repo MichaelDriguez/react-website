@@ -66,7 +66,7 @@ const Projects = () => {
               <b>OpenVAS - </b>Used to scan the target machine for vulnerabilities.
             </li>
             <li>
-              <b>WireShark - </b>Used to packet sniff a login attempt to the target machine.
+              <b>Wireshark - </b>Used to packet sniff a login attempt to the target machine.
               I used both Telnet and SSH connections and compared how data is stored in transit.
             </li>
             <li>
@@ -129,3 +129,4 @@ const Projects = () => {
 };
 
 export default Projects;
+
