@@ -68,7 +68,7 @@ const About = () => {
         <h2>Operating Systems</h2>
         <ul>
           <li>Windows (11, 10, 7, XP) <i className="devicon-windows11-original"></i></li>
-          <li>Linux (Ubuntu, Kali) <i className="devicon-ubuntu-plain"></i></li>
+          <li>Linux (Ubuntu, Kali) <i className="devicon-ubuntu-plain"></i><i className="devicon-kalilinux-original"></i></li>
         </ul>
         <br/> <br/> <br/> <br/> <br/>
       </div>
