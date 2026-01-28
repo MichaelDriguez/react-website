@@ -23,7 +23,6 @@ This is a dynamic portfolio website (React.js) that shows the following:
 - In the "Projects" page:
   - A list of *some* of the projects that I have worked on in the past couple years.
     - Each project lists the following:
-      - The month and year it began development.
       - The programs and tools used for the project (when applicable).
       - The programming languages used to create the project (when applicable).
     - When applicable, clicking on the title of the program will redirect you to its GitHub repository.
